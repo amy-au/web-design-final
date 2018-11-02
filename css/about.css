@@ -52,13 +52,7 @@ p:last-of-type
 {
 	margin-bottom: 0;
 }
-a, a:hover, a:visited, a:active, a:link
-{
-	text-decoration: none;
-	-webkit-font-smoothing: antialiased;
-	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
-	text-shadow: rgba(0,0,0,.01) 0 0 1px;
-}
+
 p a:active
 {
 	position: relative;
@@ -518,11 +512,7 @@ p a:hover::after
 	-o-transition: all 0.3s ease 0s;
 	transition: all 0.3s ease 0s;
   }
-  
-  a, a:focus, a:hover {
-	text-decoration: none;
-	outline: 0;
-  }
+
   
   .btn.active.focus,
   .btn.active:focus,
@@ -1541,6 +1531,7 @@ p a:hover::after
   
   #nav-menu-container {
 	padding-right: 15px;
+	
   }
   
   .primary-btn {
