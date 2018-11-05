@@ -2,17 +2,27 @@ html,body{
   font-family: 'Quicksand', sans-serif;
 }
 
-.logo{
-  width:120px;
+
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+
+.styling{
+  padding-top:50px;
+  padding-bottom: 50px;
 }
 
-.bannertour1{
-  height:300px;
-  background-image: url('../images/bannertour1_1.jpg');
-   
+.styling1{
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-
+.hey{
+  padding-top:12%;
+}
+.reviewer{
+  width:50px;
+}
 
 /*calendAR*/
 .icon-chevron {
@@ -91,6 +101,159 @@ html,body{
 
 /*END OF calendar*/
 
+/*cta*/
+     .cta-bar {
+        border-top-width: 4px;
+        border-bottom-width: 0px;
+         font-family: "Lato", sans-serif;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+        background-color: #4267b2;
+        color: #333333;
+        z-index: 100000;
+        position: fixed;
+        bottom: -15rem;
+        left: 0;
+        right: 0;
+        padding: 0;
+     }
+     .cta-bar--show {
+        -webkit-transform: translateY(-15rem);
+        -moz-transform: translateY(-15rem);
+        -ms-transform: translateY(-15rem);
+        transform: translateY(-15rem)
+     }
+     .call-bar-content {
+        zoom: 1;
+        padding: 0.65em 0em 0.5em 0em;
+        margin: 0 auto
+     }
+     .call-bar-content:after {
+        content: '.';
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden
+     }
+     .call-bar-content a:hover {
+        color: #fff
+     }
+     .call-bar-social {
+        visibility: hidden;
+        display: none
+     }
+     @media (min-width: 1000px) {
+        .call-bar-social {
+            visibility: visible;
+            display: inherit;
+            float: left;
+            width: 40%
+        }
+     }
+     .call-bar-social p {
+        font-size: 1rem;
+        text-align: left;
+        line-height: 1.5;
+        color: #fff;
+        margin: 0;
+        padding: 0
+     }
+     @media (min-width: 1300px) {
+        .call-bar-social p {
+            font-size: 1rem
+        }
+     }
+     .call-bar-social a {
+        color: #cbeefa
+     }
+     .call-bar-try {
+        width: 100%;
+        text-align: center
+     }
+     @media (min-width: 768px) {
+        .call-bar-try {
+            float: left;
+            text-align: right
+        }
+     }
+     @media (min-width: 1000px) {
+        .call-bar-try {
+            width: 60%
+        }
+     }
+     .call-bar-try-button {
+        display: block !important;
+        margin-bottom: 0.5em;
+     }
+
+     @media (min-width: 768px) {
+        .call-bar-try-button {
+            margin-bottom: 0;
+            float: right
+        }
+     }
+
+     @media (min-width: 768px) {
+        .call-bar-action {
+            float: right
+        }
+     }
+
+     .call-bar-try-text {
+        display: none
+     }
+
+     @media (min-width: 768px) {
+        .call-bar-try-text {
+            display: block;
+            float: right;
+            margin-right: 1em;
+            font-size: 1rem;
+            text-align: right;
+            line-height: 1.5;
+            color: #000;
+            margin: 0 1em 0 0;
+            padding: 0
+        }
+     }
+
+     @media (min-width: 1300px) {
+        .call-bar-try-text {
+            font-size: 1rem
+        }
+     }
+     .action_button, .action_button:hover {
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+      text-decoration: none;
+      font-weight: bold;
+      color: #000;
+      display: inline-block;
+      line-height: inherit;
+      white-space: normal;
+      vertical-align: middle;
+      max-width: 100%;
+      border-radius: 0.4rem;
+      border: 1px solid rgba(0,0,0,.15);
+      border-bottom-width: 2px;
+      padding: 0.5rem;
+      background-color: #fff;
+      font-family: inherit;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      font-size: 1rem;
+      cursor: pointer;
+
+      &.small {
+        padding: 0.6rem 1rem;
+        font-size: 1.3rem;
+      }
+     }
+
+     /*end of cta*/
+
 @media (min-width: 768px) {
   /*carousel*/
   /* show 3 items */
@@ -153,6 +316,9 @@ html,body{
         visibility: visible;
       }
 
+     
+
+    
   /*end of carousel*/
 }
 
@@ -1360,18 +1526,18 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /*-------- Start Banner Area ------------*/
 /* change your banner here!*/
-.banner-area {
+/*.banner-area {
   background: url(../img/homepagebanner.jpg); 
   background-size: cover;
   max-height: 500px;
-}
-
+}*/
+/*
 .tour1-banner-area {
-  background: url(../img/bannertour1_1.jpg); 
+  background: url(../img/bannertour1.jpg); 
   background-size: cover;
   max-height: 400px;
 }
-
+*/
 .banner-area .overlay-bg {
   background: rgba(31, 31, 31, 0.726);
 }
@@ -1813,3 +1979,19 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fc5457;
 }
 
+@media (max-width: 768px) {
+
+.smalla{
+      margin-top: 20px;
+    }
+
+.styling {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.hey{
+  padding-top: 0px;
+}
+
+}
