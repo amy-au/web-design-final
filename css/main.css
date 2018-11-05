@@ -2442,10 +2442,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*-------- Start Banner Area ------------*/
 
 .banner-area {
-  background: url(../img/bannertour1_1.jpg); 
+  background: url(../img/9.jpg); 
   background-size: cover;
-  max-height: 600px;
-}
+  max-height: 600px;}
 
 .blog-banner-area {
   background: url(../img/hokkienmee.jpg); 
