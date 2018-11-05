@@ -73,10 +73,7 @@ p
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
 } */
-p:last-of-type
-{
-	margin-bottom: 0;
-}
+
 a, a:hover, a:visited, a:active, a:link
 {
 	text-decoration: none;
@@ -611,8 +608,9 @@ section
 }
 .contact_list ul li:not(:last-child)
 {
-	margin-bottom: 36px;
+
 }
+
 .contact_list ul li > div:first-child
 {
 	width: 104px;
@@ -2411,4 +2409,24 @@ section
 	color: #fc5457;
 	/* text-decoration: none; */
   }
-  
+	
+	.single-contact-address {
+		margin-bottom: 8px;
+	}
+
+	.icon {
+		position: absolute;
+		left: 20px;
+		top: 0;
+		line-height: 40px;
+		z-index: 3;
+	}
+
+	.single-contact-address {
+		margin-bottom: 8px;
+	}
+
+	.contact-details p{
+		margin-left:50px;
+		margin-top:5px;
+	}
