@@ -2315,7 +2315,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*  Homepage Styles
 /* =================================== */
 .section-gap {
-  padding: 40px 0;
+  padding: 70px 0;
 }
 
 .alert-msg {
@@ -2441,9 +2441,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /*-------- Start Banner Area ------------*/
 .banner-area {
-  background: url(../img/homepagebanner.jpg); 
+  background: url(../img/bannertour1_1.jpg); 
   background-size: cover;
-  max-height: 500px;
+  max-height: 600px;
 }
 
 .blog-banner-area {
@@ -4304,8 +4304,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 .why
 {
 	width: 100%;
-	padding-top: 115px;
-	padding-bottom: 113px;
+	padding-top: 100px;
+	padding-bottom: 100px;
 }
 .why .section_subtitle,
 .why .section_title
@@ -4314,7 +4314,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 .why_row
 {
-	margin-top: 100px;
+	margin-top: 50px;
 }
 .why_item
 {
