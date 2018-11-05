@@ -132,22 +132,10 @@ h3 {
 	width: 100%;
 	background-color: rgba(0, 0, 0, 0.1);
 	text-align: center;
-	padding: 10px 0px 50px 0px;
+	padding: 5px 0px 25px 0px;
 }
 
-.bottombanner a {
-	padding: 10px;
-	background-color: red;
-	color: white;
-	 border-radius: 5px;
-	 border: none;
-	 text-decoration: none;
-}
 
-.bottombanner a:hover {
-	background-color: black;
-	cursor: pointer;
-}
 
 /* HEADER AND FOOTER */
 ::-moz-selection {
