@@ -2440,6 +2440,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 /*-------- Start Banner Area ------------*/
+
 .banner-area {
   background: url(../img/bannertour1_1.jpg); 
   background-size: cover;
@@ -2670,8 +2671,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*------ end of sponsor Area ---------- */
 
 /*--------- start testimonial area  -------------*/
+.chickenricebg{
+  background-image: url(../img/chickenricebg2.jpg);
+  background-repeat: no-repeat;
+  background-position: fixed;
+}
+
 .testimonial-area {
-  background-color: #f9f9ff;
 }
 
 .testimonial-area .owl-dots {
@@ -2707,7 +2713,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .single-testimonial {
-  background-color: #fff;
+  background-color: #f9f9ff;
   padding: 25px 30px 12px 30px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -3575,6 +3581,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #ccc;
   padding: 9px;
   padding-left: 0px;
+
 }
 
 .widget-wrap .newsletter-widget .form-control:focus {
@@ -3943,7 +3950,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*  Contact Page Styles
 /* =================================== */
 .contact-page-area {
-  background: #f9f9ff;
+  
 }
 
 .contact-page-area .map-wrap {
