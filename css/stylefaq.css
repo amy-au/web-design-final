@@ -140,8 +140,6 @@ h3 {
 	padding: 5px 0px 25px 0px;
 }
 
-
-
 /* HEADER AND FOOTER */
 ::-moz-selection {
   /* Code for Firefox */
@@ -288,6 +286,51 @@ h5, .h5 {
 h6, .h6 {
   font-size: 14px;
   color: #222222;
+}
+
+.genric-btn {
+  display: inline-block;
+  outline: none;
+  line-height: 40px;
+  padding: 0 30px;
+  font-size: .8em;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 500;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.genric-btn:focus {
+  outline: none;
+}
+
+
+.genric-btn.primary {
+  color: #fff;
+  background:  #fc3b3c;
+  border: 1px solid transparent;
+}
+
+.genric-btn.primary:hover {
+  color: #fc3b3c;
+  border: 1px solid #fc3b3c;
+  background: transparent;
+}
+
+.genric-btn.primary-border {
+  color: #fc3b3c;
+  border: 1px solid #fc3b3c;
+  background: #fff;
+}
+
+.genric-btn.primary-border:hover {
+  color: #fff;
+  background: #fc3b3c;
+  border: 1px solid transparent;
 }
 
 td, th {
