@@ -57,18 +57,17 @@ a:hover {
 	margin-bottom: 50px;
 }
 
-button {
-	padding: 10px;
-	background-color: red;
-	color: white;
-	 border-radius: 5px;
-	 border: none;
-	 margin-bottom: 20px;
+.agree a {
+	color: #fc3b3c;
+	font-weight: 400;
 }
 
-button:hover {
-	background-color: black;
-	cursor: pointer;
+.agree a:hover {
+	color: #000000;
+}
+
+.primary-btn.text-uppercase:hover {
+	background-color: #000000;
 }
 
 .rightmenu {

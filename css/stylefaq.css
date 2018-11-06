@@ -24,6 +24,11 @@ h3 {
   margin: 0;
 }
 
+.title {
+	margin-top: 90px;
+	margin-bottom: 95px;
+}
+
 .accordion a {
   position: relative;
   display: -webkit-box;
@@ -37,7 +42,7 @@ h3 {
   flex-direction: column;
   width: 100%;
   padding: 1rem 3rem 1rem 1rem;
-  color: #7288a2;
+  color: #fc5457;
   font-size: 1.15rem;
   font-weight: 400;
   border-bottom: 1px solid #e5e5e5;
@@ -46,15 +51,15 @@ h3 {
 .accordion a:hover,
 .accordion a:hover::after {
   cursor: pointer;
-  color: red;
+  color: #fc5457 !important;
 }
 
 .accordion a:hover::after {
-  border: 1px solid red;
+  border: 1px solid #fc5457;
 }
 
 .accordion a.active {
-  color: red;
+  color: #fc5457;
   border-bottom: 1px solid red;
 }
 
@@ -80,7 +85,7 @@ h3 {
   font-family: 'Ionicons';
   content: '\f209';
   color: red;
-  border: 1px solid red;
+  border: 1px solid #fc5457;
 }
 
 .accordion .content {
@@ -128,7 +133,7 @@ h3 {
 }
 
 .bottombanner {
-	margin-top: 50px;
+	margin-top: 90px;
 	width: 100%;
 	background-color: rgba(0, 0, 0, 0.1);
 	text-align: center;
