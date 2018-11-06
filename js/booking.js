@@ -34,44 +34,46 @@ function paymentselect (nameselect) {
     // }
 // });
 
-var windw = this;
+// var windw = this;
 
-$.fn.followTo = function (from, bumper) {
-    var $this = this,
-        $window = $(windw),
-        $from = $(from),
-        $bumper = $(bumper),
-        $startPos = $from.offset().top + $from.height() - 150,
-        bumperPos = $bumper.offset().top,
-        thisHeight = $this.outerHeight(),
-        setPosition = function(){
-            if ($window.scrollTop() < $startPos + 280) { 
-                $this.css({
-                    position: 'absolute',
-                    top: $startPos
-                });
-            } else if ($window.scrollTop() > (bumperPos - thisHeight)) {
-                $this.css({
-                    position: 'absolute',
-                    top: (bumperPos - thisHeight - 250)
-                });
-            } else {
-                $this.css({
-                    position: 'fixed',
-                    top: 180
-                });
-            }
-        };
-    $window.resize(function()
-    {
-        bumperPos = pos.offset().top;
-        thisHeight = $this.outerHeight();
-        setPosition();
-    });
-    $window.scroll(setPosition);
-    setPosition();
-};
+// $.fn.followTo = function (from, bumper) {
+    // var $this = this,
+        // $window = $(windw),
+        // $from = $(from),
+        // $bumper = $(bumper),
+        // $startPos = $from.offset().top + $from.height() - 110,
+        // bumperPos = $bumper.offset().top,
+        // thisHeight = $this.outerHeight(),
+        // setPosition = function(){
+            // if ($window.scrollTop() < $startPos + 250) { 
+                // $this.css({
+                    // position: 'absolute',
+                    // top: $startPos
+                // });
+            // } else if ($window.scrollTop() > (bumperPos - thisHeight)) {
+                // $this.css({
+                    // position: 'absolute',
+                    // top: (bumperPos - thisHeight - 400)
+                // });
+            // } else {
+                // $this.css({
+                    // position: 'fixed',
+                    // top: 180,
+					// right: 0,
+					// 'max-width' : 350
+                // });
+            // }
+        // };
+    // $window.resize(function()
+    // {
+        // bumperPos = pos.offset().top;
+        // thisHeight = $this.outerHeight();
+        // setPosition();
+    // });
+    // $window.scroll(setPosition);
+    // setPosition();
+// };
 
-$('.rightmenu').followTo('.top', '.bottom');
-$('.phonepopup').followTo('.top', '.bottom');
+// $('.rightmenu').followTo('.top', '.bottom');
+// $('.phonepopup').followTo('.top', '.bottom');
 

@@ -3,6 +3,7 @@ body {
     font-size: 14px;
     margin: 0px;
     padding: 30px 0;
+	/* display: flex; */
 }
 
 .content {
@@ -56,30 +57,28 @@ a:hover {
 	margin-bottom: 50px;
 }
 
-input[type=checkbox] {
-  transform: scale(1.5);
+.agree a {
+	color: #fc3b3c;
+	font-weight: 400;
 }
 
-button {
-	padding: 10px;
-	background-color: red;
-	color: white;
-	 border-radius: 5px;
-	 border: none;
-	 margin-bottom: 20px;
+.agree a:hover {
+	color: #000000;
 }
 
-button:hover {
-	background-color: black;
-	cursor: pointer;
+.primary-btn.text-uppercase:hover {
+	background-color: #000000;
 }
 
 .rightmenu {
-	width: 500px;
 	/* background-color: rgba(0, 0, 0, 0.1); */
 	border: 1px solid black;
 	padding: 20px;
-	position: fixed;
+	top: 15%;
+	position: -webkit-sticky;
+	position: sticky;
+	right: 0;
+	/* overflow-x: hidden; */
 }
 
 hr {
@@ -112,7 +111,7 @@ hr {
 		display: block;
 		position: fixed;
 		right: 0;
-		top: 5%;
+		top: 25%;
 		background-color: rgba(0, 0, 0, 0.1);
 		padding: 10px;
 	}

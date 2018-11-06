@@ -24,6 +24,11 @@ h3 {
   margin: 0;
 }
 
+.title {
+	margin-top: 90px;
+	margin-bottom: 95px;
+}
+
 .accordion a {
   position: relative;
   display: -webkit-box;
@@ -37,7 +42,7 @@ h3 {
   flex-direction: column;
   width: 100%;
   padding: 1rem 3rem 1rem 1rem;
-  color: #7288a2;
+  color: #fc5457;
   font-size: 1.15rem;
   font-weight: 400;
   border-bottom: 1px solid #e5e5e5;
@@ -46,15 +51,15 @@ h3 {
 .accordion a:hover,
 .accordion a:hover::after {
   cursor: pointer;
-  color: red;
+  color: #fc5457 !important;
 }
 
 .accordion a:hover::after {
-  border: 1px solid red;
+  border: 1px solid #fc5457;
 }
 
 .accordion a.active {
-  color: red;
+  color: #fc5457;
   border-bottom: 1px solid red;
 }
 
@@ -80,7 +85,7 @@ h3 {
   font-family: 'Ionicons';
   content: '\f209';
   color: red;
-  border: 1px solid red;
+  border: 1px solid #fc5457;
 }
 
 .accordion .content {
@@ -128,14 +133,12 @@ h3 {
 }
 
 .bottombanner {
-	margin-top: 50px;
+	margin-top: 90px;
 	width: 100%;
 	background-color: rgba(0, 0, 0, 0.1);
 	text-align: center;
 	padding: 5px 0px 25px 0px;
 }
-
-
 
 /* HEADER AND FOOTER */
 ::-moz-selection {
@@ -283,6 +286,51 @@ h5, .h5 {
 h6, .h6 {
   font-size: 14px;
   color: #222222;
+}
+
+.genric-btn {
+  display: inline-block;
+  outline: none;
+  line-height: 40px;
+  padding: 0 30px;
+  font-size: .8em;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 500;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.genric-btn:focus {
+  outline: none;
+}
+
+
+.genric-btn.primary {
+  color: #fff;
+  background:  #fc3b3c;
+  border: 1px solid transparent;
+}
+
+.genric-btn.primary:hover {
+  color: #fc3b3c;
+  border: 1px solid #fc3b3c;
+  background: transparent;
+}
+
+.genric-btn.primary-border {
+  color: #fc3b3c;
+  border: 1px solid #fc3b3c;
+  background: #fff;
+}
+
+.genric-btn.primary-border:hover {
+  color: #fff;
+  background: #fc3b3c;
+  border: 1px solid transparent;
 }
 
 td, th {
