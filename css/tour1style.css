@@ -189,6 +189,22 @@ html,body{
      .call-bar-try-button {
         display: block !important;
         margin-bottom: 0.5em;
+        background:  #fc3b3c;
+  line-height: 42px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: none;
+  color: #fff;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  position: relative;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  position: relative;
      }
 
      @media (min-width: 768px) {
@@ -1433,8 +1449,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .primary-btn {
-  background: #fc3b3c
-;
+  background:  #fc3b3c;
   line-height: 42px;
   padding-left: 30px;
   padding-right: 30px;
@@ -1488,13 +1503,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .primary-btn.white:hover {
   background: #fff;
-  color: #fc3b3c
-;
+  color: #fc3b3c;
 }
 
 .primary-btn.white:hover span {
-  color: #fc3b3c
-;
+  color: #fc3b3c;
 }
 
 .primary-btn.wh {
@@ -1518,6 +1531,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: transparent;
   color: #fff;
 }
+
 
 .overlay {
   position: absolute;
