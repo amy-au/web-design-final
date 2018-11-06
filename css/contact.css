@@ -1829,89 +1829,91 @@ section
 		font-weight: 900;
 	}
   
-  .primary-btn {
-	background: #fc5457;
-	line-height: 42px;
-	padding-left: 30px;
-	padding-right: 30px;
-	border: none;
-	color: #fff;
-	display: inline-block;
-	font-size: 14px;
-	font-weight: 500;
-	position: relative;
-	-webkit-transition: all 0.3s ease 0s;
-	-moz-transition: all 0.3s ease 0s;
-	-o-transition: all 0.3s ease 0s;
-	transition: all 0.3s ease 0s;
-	cursor: pointer;
-	position: relative;
-  }
   
-  .primary-btn:focus {
-	outline: none;
-  }
-  
-  .primary-btn span {
-	color: #fff;
-	position: absolute;
-	top: 50%;
-	transform: translateY(-60%);
-	right: 30px;
-	-webkit-transition: all 0.3s ease 0s;
-	-moz-transition: all 0.3s ease 0s;
-	-o-transition: all 0.3s ease 0s;
-	transition: all 0.3s ease 0s;
-  }
-  
-  .primary-btn:hover {
-	color: #fff;
-  }
-  
-  .primary-btn:hover span {
-	color: #fff;
-	right: 20px;
-  }
-  
-  .primary-btn.white {
-	border: 1px solid #fff;
-	color: #fff;
-  }
-  
-  .primary-btn.white span {
-	color: #fff;
-  }
-  
-  .primary-btn.white:hover {
-	background: #fff;
-	color: #fc5457;
-  }
-  
-  .primary-btn.white:hover span {
-	color: #fc5457;
-  }
-  
-  .primary-btn.wh {
-	background: #fff;
-	color: #222;
-	text-transform: uppercase;
-  }
-  
-  .primary-btn.wh:hover {
-	background: #222;
-	color: #fff;
-  }
-  
-  .primary-btn.squire {
-	border-radius: 0px !important;
-	border: 1px solid transparent;
-  }
-  
-  .primary-btn.squire:hover {
-	border: 1px solid #fff;
-	background: transparent;
-	color: #fff;
-  }
+ .primary-btn {
+  background:  #fc3b3c;
+  line-height: 42px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border: none;
+  color: #fff;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  position: relative;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  position: relative;
+}
+
+.primary-btn:focus {
+  outline: none;
+}
+
+.primary-btn span {
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-60%);
+  right: 30px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.primary-btn:hover {
+  color: #fff;
+}
+
+.primary-btn:hover span {
+  color: #fff;
+  right: 20px;
+}
+
+.primary-btn.white {
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.primary-btn.white span {
+  color: #fff;
+}
+
+.primary-btn.white:hover {
+  background: #fff;
+  color: #fc3b3c;
+}
+
+.primary-btn.white:hover span {
+  color: #fc3b3c;
+}
+
+.primary-btn.wh {
+  background: #fff;
+  color: #222;
+  text-transform: uppercase;
+}
+
+.primary-btn.wh:hover {
+  background: #222;
+  color: #fff;
+}
+
+.primary-btn.squire {
+  border-radius: 0px !important;
+  border: 1px solid transparent;
+}
+
+.primary-btn.squire:hover {
+  border: 1px solid #fff;
+  background: transparent;
+  color: #fff;
+}
+
   
   .overlay {
 	position: absolute;
@@ -2422,3 +2424,12 @@ section
 		font-family: 'Quicksand';
 		font-weight: 700;
 	}
+
+	.contact_form .primary-btn {
+	background: #fc5457;
+    }
+  
+   .contact_form .primary-btn:hover {
+	background: #222;
+	color: #fff;
+    }
