@@ -2,12 +2,14 @@
 
 ::-moz-selection {
 	/* Code for Firefox */
-	background-color: #fc5457;
+	background-color: #fc3b3c
+;
 	color: #fff;
   }
   
   ::selection {
-	background-color: #fc5457;
+	background-color: #fc3b3c
+;
 	color: #fff;
   }
 
@@ -213,11 +215,11 @@ p a:hover::after
 {
 	width: 100%;
 	background: #FFFFFF;
-	padding-top: 115px;
+	padding-top: 70px;
 }
 .about_row
 {
-	margin-top: 95px;
+	margin-top: 70px;
 }
 .about_content
 {
@@ -257,7 +259,7 @@ p a:hover::after
 	width: 100%;
 	background: #FFFFFF;
 	padding-top: 115px;
-	padding-bottom: 115px;
+	padding-bottom: 70px;
 }
 .milestone
 {
@@ -371,12 +373,12 @@ p a:hover::after
 {
 	width: 100%;
 	background: #FFFFFF;
-	padding-top: 115px;
-	padding-bottom: 67px;
+	padding-top: 90px;
+	padding-bottom: 70px;
 }
 .team_row
 {
-	margin-top: 100px;
+	margin-top: 70px;
 }
 .team_item
 {
@@ -427,12 +429,14 @@ p a:hover::after
 /* HEADER AND FOOTER */
 ::-moz-selection {
 	/* Code for Firefox */
-	background-color: #fc5457;
+	background-color: #fc3b3c
+;
 	color: #fff;
   }
   
   ::selection {
-	background-color: #fc5457;
+	background-color: #fc3b3c
+;
 	color: #fff;
   }
   
@@ -1190,7 +1194,8 @@ p a:hover::after
   }
   
   .header-top a:hover {
-	color: #fc5457;
+	color: #fc3b3c
+;
   }
   
   .header-top ul li {
@@ -1222,11 +1227,13 @@ p a:hover::after
   }
   
   .header-top .header-top-right .header-social a:hover {
-	color: #fc5457;
+	color: #fc3b3c
+;
   }
   
   .top-head-btn {
-	background: #fc5457;
+	background: #fc3b3c
+;
 	padding: 9px 26px;
   }
   
@@ -1339,7 +1346,8 @@ p a:hover::after
   }
   
   .nav-menu li:hover > a {
-	color: #fc5457;
+	color: #fc3b3c
+;
   }
   
   .nav-menu > li {
@@ -1367,7 +1375,8 @@ p a:hover::after
   }
   
   .nav-menu ul li:hover > a {
-	color: #fc5457;
+	color: #fc3b3c
+;
   }
   
   .nav-menu ul ul {
@@ -1459,7 +1468,8 @@ p a:hover::after
   }
   
   #mobile-nav ul .menu-has-children i.fa-chevron-up {
-	color: #fc5457;
+	color: #fc3b3c
+;
   }
   
   #mobile-nav ul .menu-has-children li a {
@@ -1467,7 +1477,8 @@ p a:hover::after
   }
   
   #mobile-nav ul .menu-item-active {
-	color: #fc5457;
+	color: #fc3b3c
+;
   }
   
   #mobile-body-overly {
@@ -1520,7 +1531,8 @@ p a:hover::after
   }
   
   .primary-btn {
-	background: #fc5457;
+	background: #fc3b3c
+;
 	line-height: 42px;
 	padding-left: 30px;
 	padding-right: 30px;
@@ -1574,11 +1586,13 @@ p a:hover::after
   
   .primary-btn.white:hover {
 	background: #fff;
-	color: #fc5457;
+	color: #fc3b3c
+;
   }
   
   .primary-btn.white:hover span {
-	color: #fc5457;
+	color: #fc3b3c
+;
   }
   
   .primary-btn.wh {
@@ -1686,7 +1700,8 @@ p a:hover::after
   }
   
   .banner-left .primary-btn {
-	background: #fc5457;
+	background: #fc3b3c
+;
   }
   
   .banner-left .primary-btn:hover {
@@ -1823,11 +1838,13 @@ p a:hover::after
   }
   
   .footer-area .footer-nav li a:hover {
-	color: #fc5457;
+	color: #fc3b3c
+;
   }
   
   .footer-area .primary-btn {
-	background-color: #fc5457;
+	background-color: #fc3b3c
+;
 	line-height: 42px;
 	padding-left: 30px;
 	padding-right: 60px;
@@ -1863,7 +1880,8 @@ p a:hover::after
   }
   
   .footer-area .primary-btn:hover {
-	background-color: #fc5457;
+	background-color: #fc3b3c
+;
 	box-shadow: none;
 	color: #fff;
   }
@@ -1884,11 +1902,13 @@ p a:hover::after
   
   .footer-area .primary-btn.white:hover {
 	background: #fff;
-	color: #fc5457;
+	color: #fc3b3c
+;
   }
   
   .footer-area .primary-btn.white:hover span {
-	color: #fc5457;
+	color: #fc3b3c
+;
   }
   
   .footer-area h6 {
@@ -1900,7 +1920,8 @@ p a:hover::after
   }
   
   .copy-right-text i, .copy-right-text a {
-	color: #fc5457;
+	color: #fc3b3c
+;
   }
   
   .instafeed {
@@ -1934,7 +1955,8 @@ p a:hover::after
   }
   
   .footer-social a:hover i {
-	color: #fc5457;
+	color: #fc3b3c
+;
   }
   
   .footer-social i {
@@ -1968,7 +1990,8 @@ p a:hover::after
   }
   
   .single-footer-widget .bb-btn {
-	background-color: #fc5457;
+	background-color: #fc3b3c
+;
 	color: #fff;
 	font-weight: 300;
 	border-radius: 0;
@@ -2001,12 +2024,14 @@ p a:hover::after
   
   .single-footer-widget ::-moz-selection {
 	/* Code for Firefox */
-	background-color: #fc5457;
+	background-color: #fc3b3c
+;
 	color: #777777;
   }
   
   .single-footer-widget ::selection {
-	background-color: #fc5457;
+	background-color: #fc3b3c
+;
 	color: #777777;
   }
   
@@ -2065,7 +2090,8 @@ p a:hover::after
   }
   
   .single-footer-widget ul li a:hover {
-	color: #fc5457;
+	color: #fc3b3c
+;
   }
   
   .footer-bottom {
@@ -2075,7 +2101,8 @@ p a:hover::after
   }
   
   .footer-text a, .footer-text i {
-	color: #fc5457;
+	color: #fc3b3c
+;
 	text-decoration: none;
   }
 	
