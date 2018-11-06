@@ -41,11 +41,11 @@ $.fn.followTo = function (from, bumper) {
         $window = $(windw),
         $from = $(from),
         $bumper = $(bumper),
-        $startPos = $from.offset().top + $from.height() - 150,
+        $startPos = $from.offset().top + $from.height() - 110,
         bumperPos = $bumper.offset().top,
         thisHeight = $this.outerHeight(),
         setPosition = function(){
-            if ($window.scrollTop() < $startPos + 280) { 
+            if ($window.scrollTop() < $startPos + 250) { 
                 $this.css({
                     position: 'absolute',
                     top: $startPos
@@ -53,12 +53,14 @@ $.fn.followTo = function (from, bumper) {
             } else if ($window.scrollTop() > (bumperPos - thisHeight)) {
                 $this.css({
                     position: 'absolute',
-                    top: (bumperPos - thisHeight - 250)
+                    top: (bumperPos - thisHeight - 400)
                 });
             } else {
                 $this.css({
                     position: 'fixed',
-                    top: 180
+                    top: 180,
+					right: 0,
+					'max-width' : 350
                 });
             }
         };
