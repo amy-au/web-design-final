@@ -2415,6 +2415,7 @@ section
 	.single-footer-widget .col a, .single-footer-widget input{
 		font-family: "Quicksand";
 		font-size: 14px;
+		text-decoration: none;
 	}
 
 	.contact_content h1{
