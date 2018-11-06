@@ -79,7 +79,7 @@ button:hover {
 	/* background-color: rgba(0, 0, 0, 0.1); */
 	border: 1px solid black;
 	padding: 20px;
-	top: 0;
+	top: 15%;
 	position: -webkit-sticky;
 	position: sticky;
 	right: 0;
@@ -116,7 +116,7 @@ hr {
 		display: block;
 		position: fixed;
 		right: 0;
-		top: 5%;
+		top: 25%;
 		background-color: rgba(0, 0, 0, 0.1);
 		padding: 10px;
 	}
