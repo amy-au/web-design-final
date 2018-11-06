@@ -1541,18 +1541,18 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /*-------- Start Banner Area ------------*/
 /* change your banner here!*/
-/*.banner-area {
+.banner-area {
   background: url(../img/homepagebanner.jpg); 
   background-size: cover;
   max-height: 500px;
-}*/
-/*
+}
+
 .tour1-banner-area {
-  background: url(../img/bannertour1.jpg); 
+  background: url(../img/dimsumbanner.jpg); 
   background-size: cover;
   max-height: 400px;
 }
-*/
+
 .banner-area .overlay-bg {
   background: rgba(31, 31, 31, 0.726);
 }
@@ -1900,9 +1900,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   cursor: pointer;
 }
 
-html,body{
-  font-family: 'Quicksand', sans-serif;
-}
 @media (max-width: 960px) {
   .single-footer-widget .nw-btn {
     margin-top: 20px;
