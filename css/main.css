@@ -2327,9 +2327,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #logo img{
-    height: 40px;
-    width: 145px;
-}
+    height: 50px;
+}    
 
 #nav-menu-container {
   padding-right: 15px;
