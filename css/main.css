@@ -3,12 +3,12 @@
 /* =================================== */
 ::-moz-selection {
   /* Code for Firefox */
-  background-color: #fc5457;
+  background-color:  #fc3b3c;
   color: #fff;
 }
 
 ::selection {
-  background-color: #fc5457;
+  background-color:  #fc3b3c;
   color: #fff;
 }
 
@@ -1012,25 +1012,25 @@ h1, h2, h3, h4, h5, h6 {
 
 .genric-btn.primary {
   color: #fff;
-  background: #fc5457;
+  background:  #fc3b3c;
   border: 1px solid transparent;
 }
 
 .genric-btn.primary:hover {
-  color: #fc5457;
-  border: 1px solid #fc5457;
+  color: #fc3b3c;
+  border: 1px solid #fc3b3c;
   background: #fff;
 }
 
 .genric-btn.primary-border {
-  color: #fc5457;
-  border: 1px solid #fc5457;
+  color: #fc3b3c;
+  border: 1px solid #fc3b3c;
   background: #fff;
 }
 
 .genric-btn.primary-border:hover {
   color: #fff;
-  background: #fc5457;
+  background: #fc3b3c;
   border: 1px solid transparent;
 }
 
@@ -2336,7 +2336,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .primary-btn {
-  background: #fc5457;
+  background:  #fc3b3c;
   line-height: 42px;
   padding-left: 30px;
   padding-right: 30px;
@@ -2444,6 +2444,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .banner-area {
   background: url(../img/9.jpg); 
   background-size: cover;
+
   max-height: 600px;}
 
 .blog-banner-area {
@@ -2507,7 +2508,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-left .primary-btn {
-  background: #fc5457;
+  background: #fc3b3c;
 }
 
 .banner-left .primary-btn:hover {
@@ -2708,7 +2709,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  background: #fc5457;
+  background: #fc3b3c;
 }
 
 .single-testimonial {
@@ -2787,7 +2788,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .home-about-area .home-about-left .primary-btn:hover {
-  background: #fc5457;
+  background:  #fc3b3c;
 }
 
 @media (max-width: 991px) {
@@ -3014,7 +3015,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .destinations-area .single-destinations .details .price-btn {
-  background: #fc5457;
+  background: #fc3b3c;
   color: #222;
   font-weight: 600;
   padding: 5px 20px;
@@ -4007,8 +4008,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .contact-page-area .form-area .genric-btn:hover {
-  border: 1px solid #fc5457;
-  color: #fc5457 !important;
+  border: 1px solid #fc3b3c;
+  color: #fc3b3c !important;
 }
 
 @media (max-width: 991px) {
@@ -4030,7 +4031,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .contact-page-area .address-wrap .single-contact-address .lnr {
   font-size: 30px;
   font-weight: 500;
-  color: #fc5457;
+  color:  #fc3b3c;
   margin-right: 30px;
 }
 
@@ -4196,7 +4197,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .single-footer-widget .bb-btn {
-  background-color: #fc5457;
+  background-color: #fc3b3c;
   color: #fff;
   font-weight: 300;
   border-radius: 0;
@@ -4229,12 +4230,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .single-footer-widget ::-moz-selection {
   /* Code for Firefox */
-  background-color: #fc5457;
+  background-color:  #fc3b3c;
   color: #777777;
 }
 
 .single-footer-widget ::selection {
-  background-color: #fc5457;
+  background-color:  #fc3b3c;
   color: #777777;
 }
 
@@ -4293,7 +4294,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .single-footer-widget ul li a:hover {
-  color: #fc5457;
+  color:  #fc3b3c;
 }
 
 .footer-bottom {
@@ -4303,7 +4304,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .footer-text a, .footer-text i {
-  color: #fc5457;
+  color:  #fc3b3c;
 }
 
 /* WHY CHOOSE US */
