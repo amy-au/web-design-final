@@ -68,11 +68,11 @@ body {
 	color: #000000;
 }
 
-a {
+.my-4 a {
 	color: red;
 }
 
-a:hover {
+.my-4 a:hover {
 	color: black;
 	text-decoration: underline !important;
 }
