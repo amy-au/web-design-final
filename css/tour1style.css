@@ -1236,7 +1236,7 @@ td, th {
   content: "\f107";
   position: absolute;
   right: 15px;
-  font-family: "Quicksand";
+  font-family: FontAwesome;
   font-style: normal;
   font-weight: normal;
 }
