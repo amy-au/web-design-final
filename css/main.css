@@ -4433,4 +4433,49 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* =================================== */
 /*  Newsletter
 /* =================================== */
+.block-31 {
+  
+  
+  position: relative;
+  background: #fff;
+  padding: 30px;
+
+  -webkit-box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.1); }
+  .block-31 .field-icon-wrap {
+    position: relative; }
+    .block-31 .field-icon-wrap .form-control {
+      height: 52px !important;
+      position: relative;
+      padding-right: 40px;
+      -webkit-box-shadow: none !important;
+      box-shadow: none !important;
+      color: #a6a6a6; }
+    .block-31 .field-icon-wrap .icon {
+      position: absolute;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+      right: 15px;
+      z-index: 2; }
+    .block-31 .field-icon-wrap select {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      width: 100%; }
+  .block-31 .btn {
+    height: 52px;
+    color: #fff; }
+
+    .btn-block {
+      display: block;
+      width: 100%; }
+      .btn-block + .btn-block {
+        margin-top: 0.5rem; }
+    
+    input[type="submit"].btn-block,
+    input[type="reset"].btn-block,
+    input[type="button"].btn-block {
+      width: 100%; }
 
