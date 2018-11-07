@@ -2327,8 +2327,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #logo img{
-    height: 40px;
-    width: 145px;
+    
+    width: 47px;
 }
 
 #nav-menu-container {
@@ -4428,3 +4428,9 @@ body.mobile-nav-active #mobile-nav-toggle {
     color: #0f0 !important;
     outline: solid #f00 1px !important;
   } */
+
+
+/* =================================== */
+/*  Newsletter
+/* =================================== */
+
