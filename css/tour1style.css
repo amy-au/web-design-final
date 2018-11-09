@@ -3,6 +3,14 @@ html,body{
 }
 
 
+
+ p{
+
+  font-size:16px;
+  font-weight: 500;
+
+ }
+
 .mySlides {display:none}
 .w3-left, .w3-right, .w3-badge {cursor:pointer}
 .w3-badge {height:13px;width:13px;padding:0}
@@ -105,12 +113,11 @@ html,body{
      .cta-bar {
         border-top-width: 4px;
         border-bottom-width: 0px;
-         font-family: "Lato", sans-serif;
         -webkit-transition: all 0.3s ease;
         -moz-transition: all 0.3s ease;
         -ms-transition: all 0.3s ease;
         transition: all 0.3s ease;
-        background-color: #fff;
+        background-color: #F5F5F5;
         color: #333333;
         z-index: 100000;
         position: fixed;
@@ -169,7 +176,7 @@ html,body{
         }
      }
      .call-bar-social a {
-        color: #cbeefa
+        color: #fc3b3c;
      }
      .call-bar-try {
         width: 100%;
