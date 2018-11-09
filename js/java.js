@@ -115,6 +115,7 @@ $(document).ready(function() {
           $.each( $(this), function( key ){
             $output += '<h1>Title: '+$(this)[key].title+'</h1>' + '<p>Status: '+$(this)[key].status+'<br />'+$(this)[key].time+'</p>';
           });
+
         });
         $output + '</div>';
         
@@ -125,6 +126,7 @@ $(document).ready(function() {
           fadeOutModalBox(500);
         }
         
+
         },
     }); /* end $cal */
   }); /* end $document */
