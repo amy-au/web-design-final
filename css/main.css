@@ -1,6 +1,9 @@
 /* =================================== */
 /*  Basic Style 
 /* =================================== */
+html{
+  overflow-x: hidden;
+}
 ::-moz-selection {
   /* Code for Firefox */
   background-color:  #fc3b3c;
