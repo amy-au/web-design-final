@@ -5359,8 +5359,31 @@ position: relative;
     .avail-button-tab-hidden{
         visibility: visible;
         display:block;
-        
+
     }
  }
 
  /*end of cta*/
+
+.field-icon-wrap {
+    position: relative; }
+    .block-32 .field-icon-wrap .form-control {
+      height: 52px !important;
+      position: relative;
+      padding-right: 40px;
+      -webkit-box-shadow: none !important;
+      box-shadow: none !important;
+      color: #a6a6a6; }
+ .field-icon-wrap .icon {
+      position: absolute;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+      right: 15px;
+      z-index: 2; }
+.field-icon-wrap select {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      width: 100%; }

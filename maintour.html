@@ -34,6 +34,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		<link rel="stylesheet" href="css/animate.min.css">
 		<link rel="stylesheet" href="css/owl.carousel.css">				
 		<link rel="stylesheet" href="css/maintour.css">
+		<link rel="stylesheet" href="css/bootstrap-datepicker.css">
 		</head>
 		<body>	
 		<!-- Google Tag Manager (noscript) -->
@@ -151,6 +152,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 											<div class="field-icon-wrap">
 												<div class="icon"><span class="ion-ios-arrow-down"></span></div>
 												<select name="" id="" class="form-control">
+												<option value="">0</option>												
 												<option value="">1</option>
 												<option value="">2</option>
 												<option value="">3</option>
@@ -555,5 +557,25 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<script src="js/owl.carousel.min.js"></script>							
 			<script src="js/mail-script.js"></script>	
 			<script src="js/main.js"></script>	
+			<script>
+				// JavaScript for label effects only
+				$(window).load(function(){
+					$(".col-3 input").val("");
+					
+					$(".input-effect input").focusout(function(){
+						if($(this).val() != ""){
+							$(this).addClass("has-content");
+						}else{
+							$(this).removeClass("has-content");
+						}
+					})
+				});
+	
+					$('#checkin_date, #checkout_date').datepicker({
+					'format': 'd MM, yyyy',
+					'autoclose': true
+					});
+			</script>
+	
 		</body>
 	</html>
