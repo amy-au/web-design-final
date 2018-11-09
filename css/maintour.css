@@ -2454,8 +2454,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .maintour-banner-area {
-  background: url(../img/chinatownbanner.jpg); 
-  background-size: cover;
+  background: url(../img/falling.gif); 
+  background-size: auto;
+    background-position: center;
   max-height: 400px;
 }
 
@@ -2934,6 +2935,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   top: 50%;
   z-index: 2;
   transform: translate(-50%, -50%);
+}
+
+.single-carusel img{
+    height:auto;
+    width:auto;
 }
 
 @media (max-width: 413px) {
