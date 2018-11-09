@@ -157,12 +157,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<h2>Payment method</h2>
 			<div class='form-group'>
 				<label for='payment'>Select payment type*:</label>
-				<select class='form-control' id='payment' onchange='paymentselect(this);'>
-					<option>Cash</option>
-					<option id='cheque'>Cheque / Bank transfer</option>
-					<option id='credit'>Credit card</option>
-				</select>
+					<img src = "img/money.png" width = "50" onclick='paymentcash();'>
+					<input type="radio" name = "payment" id = "cheque" onclick='paymentselect();'>Cheque / Bank transfer
+					<img src = "img/visa.jpg" onclick='paymentvisa()' width = '50'>
+					<img src = "img/mastercard.png" onclick='paymentmaster()' width = '50'>
+					<img src = "img/paypal.png" onclick='paymentpaypal()' width = '50'>
 			  </div>
+			</div>
+			<div id = 'cash' style='display:none;'>
+				<h3><br>
+					Please pay your tour guide before the start of the tour.
+				</h3>
 			</div>
 			<div id = 'chequepayment' style='display:none;'>
 				<h3><br>

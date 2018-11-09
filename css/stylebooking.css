@@ -47,6 +47,12 @@ a:hover {
 	margin-top: 80px;
 }
 
+#visa {
+	background-image: url("../img/visa.jpg");
+	width: 50px;
+	text-indent: -9999px;
+}
+
 .promocode {
 	margin-top: 80px;
 	margin-bottom: 80px;
@@ -78,6 +84,7 @@ a:hover {
 	position: -webkit-sticky;
 	position: sticky;
 	right: 0;
+	margin-bottom: 30px;
 	/* overflow-x: hidden; */
 }
 
