@@ -123,22 +123,27 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<h1>Review and pay</h1>
 		<form>
 			<div class = 'addguests'>
-			<h2>How many people are in your group?</h2>
+			<h2>Confirm the number of people going</h2><br>
+			<div class = "row">
+				<div class = "col-md-6">
 				<div class='form-group'>
-				<label for='pax'>No. of pax:</label>
-				<select class='form-control' id='pax'>
-					<option>1</option>
-					<option>2</option>
-					<option>3</option>
-					<option>4</option>
-					<option>5</option>
-				</select>
+				<label for='adults'>Adults:</label>
+				<input type = 'number' class = 'form-control' id = 'adults' value = '2' onchange = 'disc()'>
 			  </div>
+			  </div>
+			  <div class = "col-md-6">
+			  <div class='form-group'>
+				<label for='children'>Children:</label>
+				<input type= 'number' class = 'form-control' id = 'children' value = '2' onchange = 'disc()'>
+			  </div>
+			  </div>
+			  </div>
+			  <li id = 'famdisc'><img src = 'img/success.png' width ='20'> Family discount applied</li>
 		  </div>
 		  
 			<div class = 'contact'>
 			<h2>Verify your contact details</h2>
-			<h4>So we can contact you regarding trip details!</h4>
+			<h4>So we can contact you regarding trip details!</h4><br>
 				<div class='form-group'>
 				  <label for='usr'>Name*:</label>
 				  <input type='text' class='form-control' id='usr'>
@@ -153,18 +158,48 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				</div>
 			</div>
 			
-			<div class = 'payment'>
-			<h2>Payment method</h2>
-			<div class='form-group'>
-				<label for='payment'>Select payment type*:</label>
-					<img src = "img/money.png" width = "50" onclick='paymentcash();'>
-					<input type="radio" name = "payment" id = "cheque" onclick='paymentselect();'>Cheque / Bank transfer
-					<img src = "img/visa.jpg" onclick='paymentvisa()' width = '50'>
-					<img src = "img/mastercard.png" onclick='paymentmaster()' width = '50'>
-					<img src = "img/paypal.png" onclick='paymentpaypal()' width = '50'>
-			  </div>
+			<div class = "addons">
+			<h2>Choose your add-ons</h2>
+				<div class = 'form-group'>
+				<p><div class = 'row'>
+					<div class = 'col-md-6'>
+						<input type = 'checkbox'>Wheelchair access
+					</div>
+					<div class = 'col-md-6'>
+						<input type = 'checkbox'>WiFi 
+					</div>
+					</div>
+					<div class = 'row'>
+					<div class = 'col-md-6'>
+						<input type = 'checkbox'>Baby seat
+					</div>
+					<div class = 'col-md-6'>
+						<input type = 'checkbox'>Pick up from hotel
+					</div>
+					</div>
+				</p>
+				</div>
 			</div>
-			<div id = 'cash' style='display:none;'>
+			
+			<div class = 'payment'>
+			<h2>Payment method</h2><br>
+			<div class='form-group'>
+				<label for='payment'>Select payment type*:</label><br><p>
+				<div class = 'row'>
+					<div class = 'col-md-6'>
+					<input type="radio" name = "payment" id = "cash" onclick='paymentselect();'>Cash
+					</div>
+					<div class = 'col-md-6'>
+					<input type="radio" name = "payment" id = "cheque" onclick='paymentselect();'>Cheque / Bank transfer
+					</div>
+					</div>
+					<input type="radio" name = "payment" id = "credit" onclick='paymentselect()'>
+					<img src = "img/visa.jpg" width = '40'>
+					<img src = "img/mastercard.png" width = '30'>
+					<img src = "img/paypal.png" width = '70'>
+			  </p></div>
+			</div>
+			<div id = 'cashpayment' style='display:none;'>
 				<h3><br>
 					Please pay your tour guide before the start of the tour.
 				</h3>
@@ -198,7 +233,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				<div class = 'row'>
 					<div class = 'col-md-6'>
 						<div class='form-group'>
-							  <label for='expiration'>Expiration*:</label>
+							  <label for='expiration'>Expiration Date*:</label>
 							  <input type= 'date' class='form-control' id='expiration'>
 						</div>
 					</div>
@@ -226,7 +261,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			</div>
 			<div class = 'promocode'>
 			<div class='form-group'>
-				<label for='promocode'>Promo Code:</label>
+				<label for='promocode'>Promo / Giftcard Code:</label>
 				<input type='text' class='form-control' id='promocode'>
 			</div>
 			</div>
@@ -245,7 +280,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<div class = 'rightmenu'>
 				<div class = 'row'>
 					<div class = 'col-md-7'>
-						<h2>Title of tour eat with the stars</h2>
+						<h2>So Shiok!</h2>
 						<h5>Tour description</h5>
 					</div>
 					<div class = 'col-md-5'>
@@ -273,6 +308,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					$174.00
 					</div>
 					</div>
+					<hr>
+					<li id = 'famdisc'><img src = 'img/success.png' width ='20'> Family discount applied</li>
 				</div>
 			</div>
 		</div>
