@@ -5387,3 +5387,13 @@ position: relative;
       -moz-appearance: none;
       appearance: none;
       width: 100%; }
+
+.original-price{
+    text-decoration: line-through;
+    color: #ccc;
+}
+
+.new-price{
+    color: #fc3b3c;
+    font-size: 20px;
+}
