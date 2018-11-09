@@ -2,7 +2,9 @@ html,body{
   font-family: 'Quicksand', sans-serif;
 }
 
-
+ .iconsize{
+  width:25px;
+}
 
  p{
 
@@ -1448,7 +1450,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .primary-btn {
   background:  #fc3b3c;
-  line-height: 42px;
+  line-height: 20px;
   padding-left: 30px;
   padding-right: 30px;
   border: none;
@@ -1560,8 +1562,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .tour1-banner-area {
-  background: url(../img/dimsumbanner.jpg); 
-  background-size: cover;
+  background: url(../img/falling.gif); 
+  background-size: auto;
   max-height: 400px;
 }
 
@@ -1613,12 +1615,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 20px 0px;
 }
 
-.banner-left .primary-btn {
+.hey .primary-btn {
   background: #fc3b3c
 ;
 }
 
-.banner-left .primary-btn:hover {
+.hey .primary-btn:hover {
   background: #222;
   color: #fff;
 }
@@ -2034,5 +2036,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding-top: 0px;
 }
 
+}
+
+@media (min-width: 1000px)
+.col-md-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
 }
 
