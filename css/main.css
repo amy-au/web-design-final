@@ -3992,7 +3992,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .contact-page-area .form-area input,
 .contact-page-area .form-area textarea {
-  border-radius: 0;
+  /* border-radius: 0; */
   font-size: 13px !important;
 }
 
@@ -4007,7 +4007,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  border-radius: 0 !important;
+  /* border-radius: 0 !important; */
   font-size: 14px;
   text-transform: uppercase !important;
 }
@@ -4199,13 +4199,18 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #777;
   padding-left: 20px;
   width: 80%;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
 }
 
 .single-footer-widget .bb-btn {
   background-color: #fc3b3c;
   color: #fff;
   font-weight: 300;
-  border-radius: 0;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
   cursor: pointer;
 }
 
@@ -4483,3 +4488,16 @@ body.mobile-nav-active #mobile-nav-toggle {
     input[type="button"].btn-block {
       width: 100%; }
 
+      .original-price{
+        text-decoration: line-through;
+        color: #ccc;
+    }
+    
+    .new-price{
+        color: #fc3b3c;
+        font-size: 20px;
+    }
+
+    .clickable, .clickable:hover{
+      color:#777777;
+    }
