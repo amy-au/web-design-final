@@ -4497,3 +4497,7 @@ body.mobile-nav-active #mobile-nav-toggle {
         color: #fc3b3c;
         font-size: 20px;
     }
+
+    .clickable, .clickable:hover{
+      color:#777777;
+    }
