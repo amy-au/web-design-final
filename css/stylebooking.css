@@ -126,6 +126,8 @@ a:hover {
 	position: sticky;
 	right: 0;
 	margin-bottom: 80px;
+	border: 1px solid #ced4da;
+	border-radius: 7px;
 	overflow-x: hidden;
 }
 
