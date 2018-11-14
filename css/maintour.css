@@ -5367,8 +5367,13 @@ position: relative;
     .avail-button-tab-hidden{
         visibility: visible;
         display:block;
-
     }
+ }
+ 
+ @media screen and (max-width: 860px) {
+	 .primary-btn {
+		margin-bottom: 40px;
+	}
  }
 
  /*end of cta*/

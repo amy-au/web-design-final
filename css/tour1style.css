@@ -1089,6 +1089,12 @@ td, th {
   background: #f9fafc;
 }
 
+@media screen and (max-width: 860px) {
+	 .call-bar-try-button {
+		margin-bottom: 40px; 
+	}
+ }
+
 @media (max-width: 767px) {
   .no-flex-xs {
     display: block !important;
