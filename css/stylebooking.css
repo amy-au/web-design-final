@@ -32,7 +32,8 @@ a:hover {
 }
 
 .form-control:focus {
-	border-bottom-color: red;
+	border-color: #ced4da;
+	border-bottom: 2px solid red;
 	box-shadow: none;
 }
 
