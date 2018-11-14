@@ -1569,8 +1569,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .tour1-banner-area {
-  background: url(../img/falling.gif); 
-  background-size: auto;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/durian.jpeg); 
+  background-size: cover;
+  max-height: 400px;
+}
+
+.tour2-banner-area {
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/prawnnood.jpg); 
+  background-size: cover;
   max-height: 400px;
 }
 
