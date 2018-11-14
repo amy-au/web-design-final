@@ -26,7 +26,38 @@ h3 {
 
 .title {
 	margin-top: 90px;
-	margin-bottom: 95px;
+	margin-bottom: 70px;
+}
+
+.container .field-input {
+  text-align: center;
+  margin-top: 70px;
+}
+.container .field-input input {
+  text-align: left;
+  border-radius: 6rem;
+  border: 1px solid #ced4da;
+  padding: .6rem 2rem .6rem 1rem;
+  width: 50%;
+  font-family: 'Quicksand';
+  transition: .5s;
+}
+.container .field-input input:focus {
+  outline: none;
+  border-color: #fc3b3c;
+  transition: .5s;
+}
+.container .field-input span:before {
+  content: '';
+  cursor: pointer;
+  position: relative;
+  font-family: 'fontawesome';
+  top: 0;
+  right: 1.5rem;
+}
+
+.accordion {
+	margin-bottom: 50px;
 }
 
 .accordion a {
@@ -137,7 +168,7 @@ h3 {
 	width: 100%;
 	background-color: rgba(0, 0, 0, 0.1);
 	text-align: center;
-	padding: 5px 0px 25px 0px;
+	padding: 5px 0px 5px 0px;
 }
 
 /* HEADER AND FOOTER */
@@ -430,8 +461,10 @@ td, th {
   margin-top: 35px;
 }
 
+/* bottom banner button */
 .mt-40 {
-  margin-top: 40px;
+  margin-top: 0px;
+  margin-bottom: 20px;
 }
 
 .mt-50 {
@@ -1396,8 +1429,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .faq-banner-area {
-  background: url(../img/bannertour1.jpg); 
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/faqbanner.png); 
   background-size: cover;
+  background-position: center;
   max-height: 400px;
 }
 

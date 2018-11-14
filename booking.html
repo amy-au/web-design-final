@@ -57,11 +57,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<div class="header-top">
 			<div class="container">
 				<div class="row align-items-center">
-					<div class="col-lg-6 col-sm-6 col-6 header-top-left">
-						<ul>
-							<li><a href="#">Visit Us</a></li>
-							<li><a href="#">Buy Tickets</a></li>
-						</ul>			
+					<div class="col-lg-6 col-sm-6 col-6 header-top-left">	
 					</div>
 					<div class="col-lg-6 col-sm-6 col-6 header-top-right">
 					<div class="header-social">
@@ -123,7 +119,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<h1>Review and pay</h1>
 		<form>
 			<div class = 'addguests'>
-			<h2>Confirm the number of people going</h2><br>
+			<h3>Confirm the number of people going</h3><br>
 			<div class = "row">
 				<div class = "col-md-6">
 				<div class='form-group'>
@@ -142,8 +138,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		  </div>
 		  
 			<div class = 'contact'>
-			<h2>Verify your contact details</h2>
-			<h4>So we can contact you regarding trip details!</h4><br>
+			<div class = 'row'>
+				<div class = 'col-md-8'>
+					<h3>Verify your contact details</h3>
+					<h5 style = "color: #777777">So we can contact you regarding trip details!</h5>
+				</div><br>
+				<div class = 'col-md-4'>
+				<img src = 'img/prata.png' width = '100%'>
+				</div>
+			</div>
 				<div class='form-group'>
 				  <label for='usr'>Name*:</label>
 				  <input type='text' class='form-control' id='usr'>
@@ -159,7 +162,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			</div>
 			
 			<div class = "addons">
-			<h2>Choose your add-ons</h2>
+			<h3>Choose your add-ons</h3>
 				<div class = 'form-group'>
 				<p><div class = 'row'>
 					<div class = 'col-md-6'>
@@ -182,9 +185,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			</div>
 			
 			<div class = 'payment'>
-			<h2>Payment method</h2><br>
+
+			<h3>Payment method</h3>
+			<h5 style = "color: #777777">Select payment type:</h5>
+
+			<br>
 			<div class='form-group'>
-				<label for='payment'>Select payment type*:</label><br><p>
+				<p>
 				<div class = 'row'>
 					<div class = 'col-md-6'>
 					<input type="radio" name = "payment" id = "cash" onclick='paymentselect();'>Cash
@@ -200,16 +207,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			  </p></div>
 			</div>
 			<div id = 'cashpayment' style='display:none;'>
-				<h3><br>
+				<h5><br>
 					Please pay your tour guide before the start of the tour.
-				</h3>
+				</h5>
 			</div>
 			<div id = 'chequepayment' style='display:none;'>
-				<h3><br>
+				<h5><br>
 					Please pay: <strong>WokSG Private Limited</strong><br><br>
 					Account number: <strong>DBS Bank 012-345-678-9</strong><br><br>
 					Swift code: <strong>DBSSSGSG</strong>
-				</h3>
+				</h5>
 			</div>
 			<div id = 'creditcard' style='display:none;'>
 				<div class = 'row'>
@@ -259,15 +266,30 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				</div>
 				</div>
 			</div>
+			
 			<div class = 'promocode'>
 			<div class='form-group'>
 				<label for='promocode'>Promo / Giftcard Code:</label>
 				<input type='text' class='form-control' id='promocode'>
 			</div>
 			</div>
+			
+			<div class = 'remarks'>
+			<div class='form-group'>
+				<label for='remarks'>Remarks:</label>
+				<input type='text' class='form-control' id='remarks'>
+			</div>
+			</div>
+			
 			<div class = 'agree'>
-			<input type = 'checkbox'>&nbsp&nbsp&nbspI agree with the <a href = 'tnc.html' target="_blank">Terms & Conditions</a><br>
-			<input type = 'checkbox'>&nbsp&nbsp&nbspI agree with the <a href = 'pp.html' target="_blank">Privacy Policy</a>
+			<div class = 'row'>
+				<div class = 'col-md-7'>
+					<input type = 'checkbox'>&nbsp&nbsp&nbspI agree with the <a href = 'tnc.html' target="_blank">Terms & Conditions</a><br>
+					<input type = 'checkbox'>&nbsp&nbsp&nbspI agree with the <a href = 'pp.html' target="_blank">Privacy Policy</a>
+				</div>
+				<div class = 'col-md-5'><img src = 'img/wanton-noodles.png' width = '100%'>
+				</div>
+			</div>
 			</div>
 			<a href = '#' class="primary-btn text-uppercase">Confirm and pay</a>
 			</form>
@@ -279,22 +301,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<div class = 'col-md-4'>
 			<div class = 'rightmenu'>
 				<div class = 'row'>
-					<div class = 'col-md-6'>
+					<div class = 'col-md-5'>
 						<h2>Supper Hawk</h2>
-						<h6>2018 Halloween Special</h6>
+						<h6 style = "color: #777777">2018 Halloween Special</h6>
 					</div>
-					<div class = 'col-md-6'>
-						<img src = 'img/halloween.jpeg' alt= 'Supper Hawk: Halloween Edition' class = 'img-fluid'>
+					<div class = 'col-md-7'>
+						<img src = 'img/halloween.jpeg' alt= 'Supper Hawk: Halloween Edition' width = '100%'>
 					</div>
 				</div>
 				<hr>
 				<div class = 'additionalinfo'>
-					<h4>Please come in walking shoes and bring along your hungry stomachs!</h4>
+					<h5>Please come in walking shoes and bring along your hungry stomachs!</h5>
 				</div>
 				<hr>
 				<div class = 'datentime'>
 					<strong style='font-size: 18px'>Monday, 19th November 2018<br>
-							 8-11pm<br>
+							 8pm - 11pm<br>
 							 Meeting point: Little India MRT Exit B 
 					</strong>
 				</div>
@@ -302,14 +324,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				<div class = 'price'>
 					<div class = 'row'>
 					<div class = 'col-md-6'>
-					$58.00 x 3
+					$40.00 x 4<br>
 					</div>
 					<div class= 'col-md-6' style = 'text-align: right'>
-					$174.00
+					<div id = 'originalprice'>$160.00</div>
+					<div id = 'promotionprice'>$128.00</div>
 					</div>
 					</div>
 					<hr>
-					<li id = 'famdisc'><img src = 'img/success.png' width ='20'> Family discount applied</li>
+					<li id = 'famdiscR'><img src = 'img/success.png' width ='20'> Family discount applied</li>
 				</div>
 			</div>
 		</div>
@@ -345,7 +368,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<hr>
 	<div class = 'datentime'>
 		<strong style='font-size: 18px'>Monday, 19th November 2018<br>
-							 8-11pm<br>
+							 8pm - 11pm<br>
 							 Meeting point: Little India MRT Exit B		 
 		</strong>
 	</div>
@@ -353,13 +376,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<div class = 'price'>
 		<div class = 'row'>
 			<div class = 'col-md-6'>
-				$58.00 x 3
+				$40.00 x 4
 			</div>
 			<div class= 'col-md-6' style = 'text-align: right; font-weight: bold;'>
-				$174.00
+				<div id = 'originalpriceM'>$160.00</div>
+				<div id = 'promotionpriceM'>$138.00</div>
 			</div>
 		</div>
 	</div>
+	<hr>
+	<li id = 'famdiscM'><img src = 'img/success.png' width ='20'> Family discount applied</li>
 	</div>
 </div>
 </body>

@@ -37,5 +37,23 @@ function disc () {
 	children = document.getElementById('children').value;
 	if (adults == 2 && children == 2) {
 		document.getElementById('famdisc').style.display = 'block';
-	} else document.getElementById('famdisc').style.display = 'none';
+		document.getElementById('promotionprice').style.display = 'block';
+		document.getElementById('originalprice').style.textDecoration = 'line-through';
+		
+		document.getElementById('famdiscR').style.display = 'block';
+		
+		document.getElementById('promotionpriceM').style.display = 'block';
+		document.getElementById('originalpriceM').style.textDecoration = 'line-through';
+		document.getElementById('famdiscM').style.display = 'block';
+	} else {
+		document.getElementById('famdisc').style.display = 'none';
+		document.getElementById('promotionprice').style.display = 'none';
+		document.getElementById('originalprice').style.textDecoration = 'none';
+		
+		document.getElementById('famdiscR').style.display = 'none';
+		
+		document.getElementById('promotionpriceM').style.display = 'none';
+		document.getElementById('originalpriceM').style.textDecoration = 'none';
+		document.getElementById('famdiscM').style.display = 'none';
+	}
 }

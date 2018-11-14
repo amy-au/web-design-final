@@ -12,9 +12,14 @@ body {
 }
 
 .questions {
-	border: 1px solid black;
+	border: 1px solid #ced4da;
+	border-radius: 7px;
 	padding: 20px;
 	margin-bottom: 80px;
+}
+
+.questions h1 {
+	font-weight: 700;
 }
 
 a {
@@ -27,7 +32,8 @@ a:hover {
 }
 
 .form-control:focus {
-	border: 1px solid red;
+	border-color: #ced4da;
+	border-bottom: 1.5px solid red;
 	box-shadow: none;
 }
 
@@ -36,10 +42,10 @@ a:hover {
 }
 
 .addguests {
-	margin-top: 80px;
+	margin-top: 50px;
 }
 
-.addguests li, .price li {
+.addguests li, .price li, .restofsidenav li {
 	border: 1px solid black;
 	list-style-type: none;
 	padding: 7px;
@@ -50,18 +56,21 @@ a:hover {
 
 .addguests li {
 	width: 200px;
+	background-color: #67b826;
+	border-color: #67b826;
+	color: white;
 }
 
 .contact {
-	margin-top: 80px;
+	margin-top: 50px;
 }
 
 .addons {
-	margin-top: 80px;
+	margin-top: 50px;
 }
 
 .payment {
-	margin-top: 80px;
+	margin-top: 50px;
 }
 
 .payment input, .addons input {
@@ -84,12 +93,20 @@ a:hover {
 
 .promocode {
 	margin-top: 80px;
+}
+
+.remarks {
+	margin-top: 80px;
 	margin-bottom: 80px;
 }
 
 .agree {
 	font-size: 16px;
-	margin-bottom: 50px;
+	padding-bottom: 50px;
+}
+
+.col-md-5 img{
+	float: right;
 }
 
 .agree a {
@@ -114,7 +131,13 @@ a:hover {
 	position: sticky;
 	right: 0;
 	margin-bottom: 80px;
-	/* overflow-x: hidden; */
+	border: 1px solid #ced4da;
+	border-radius: 7px;
+	overflow-x: hidden;
+}
+
+.rightmenu h2 {
+	font-weight: 700;
 }
 
 hr {
@@ -126,8 +149,20 @@ hr {
 	font-size: 20px;
 }
 
-.price li {
+.price li, .restofsidenav li {
 	width: 90%;
+	background-color: #67b826;
+	border-color: #67b826;
+	color: white;
+}
+
+#originalprice, #originalpriceM {
+	text-decoration: line-through;
+}
+
+#promotionprice, #promotionpriceM {
+	color: black;
+	font-weight: 500;
 }
 
 .laws {
@@ -183,6 +218,10 @@ hr {
 	
 	.restofsidenav {
 		width: 95%;
+	}
+	
+	.restofsidenav #originalpriceR {
+		text-decoration: line-through;
 	}
 	
 	.addguests li {
@@ -1392,8 +1431,9 @@ hr {
   }
   
   .booking-banner-area {
-	background: url(../img/bannertour1_1.jpg); 
+	background:  linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/bookingbanner5.jpg); 
 	background-size: cover;
+	background-position: left;
 	max-height: 400px;
   }
   
