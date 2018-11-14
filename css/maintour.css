@@ -2454,9 +2454,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .maintour-banner-area {
-  background: url(../img/falling.gif); 
-  background-size: auto;
-    background-position: center;
+  background: url(../img/tour.jpg); 
+  background-size: cover;
+    /* background-position: center; */
+    max-width: 1280px;
   max-height: 400px;
 }
 
