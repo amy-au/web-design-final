@@ -29,6 +29,32 @@ h3 {
 	margin-bottom: 95px;
 }
 
+.container .field-input {
+  text-align: center;
+}
+.container .field-input input {
+  text-align: left;
+  border-radius: 6rem;
+  border: 1px solid #a0a0a0;
+  padding: .6rem 2rem .6rem 1rem;
+  width: 12rem;
+  font-family: 'roboto';
+  transition: .5s;
+}
+.container .field-input input:focus {
+  outline: none;
+  border-color: #212121;
+  transition: .5s;
+}
+.container .field-input span:before {
+  content: '';
+  cursor: pointer;
+  position: relative;
+  font-family: 'fontawesome';
+  top: 0;
+  right: 1.5rem;
+}
+
 .accordion a {
   position: relative;
   display: -webkit-box;
