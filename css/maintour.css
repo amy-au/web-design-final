@@ -48,7 +48,7 @@ body {
   color: #777777;
   font-family: "Quicksand", sans-serif;
   font-size: 14px;
-  font-weight: 300;
+  font-weight: 500;
   line-height: 1.625em;
   position: relative;
 }
@@ -2454,7 +2454,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .maintour-banner-area {
-	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/food.jpg); 
+	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/maintourbanner2.jpg); 
   background-size: cover;
     /* background-position: center; */
     max-width: 1280px;
