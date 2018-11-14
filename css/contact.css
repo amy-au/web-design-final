@@ -2434,6 +2434,15 @@ section
 		text-decoration: none;
 	}
 
+	.contact_content a {
+		color: #72728c;
+	}
+	
+	.contact_content a:hover {
+		color: #fc3b3c;
+		/* text-decoration: underline; */
+	}
+	
 	.contact_content h1{
 		font-family: 'Quicksand';
 		font-weight: 700;
