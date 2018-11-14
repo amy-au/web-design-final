@@ -1941,7 +1941,7 @@ section
   }
   
   .contact-banner-area {
-	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/contactbanner.jpg); 
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/hello.jpg); 
 	background-size: cover;
 	max-height: 400px;
   }
