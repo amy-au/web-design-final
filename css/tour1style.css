@@ -2,7 +2,10 @@ html,body{
   font-family: 'Quicksand', sans-serif;
 }
 
-
+.original-price{
+    text-decoration: line-through;
+    color: #ccc;
+}
 
  .iconsize{
   width:25px;
