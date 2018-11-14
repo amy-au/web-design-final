@@ -1586,6 +1586,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   max-height: 400px;
 }
 
+.tour3-banner-area {
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/drinks.jpeg); 
+  background-size: cover;
+  max-height: 400px;
+}
+
 .banner-area .overlay-bg {
   background: rgba(31, 31, 31, 0.726);
 }
