@@ -51,9 +51,13 @@ body {
   color: #777777;
   font-family: "Quicksand", sans-serif;
   font-size: 14px;
-  font-weight: 300;
+  font-weight: 500;
   line-height: 1.625em;
   position: relative;
+}
+
+.weight{
+  font-weight: 400;
 }
 
 ol, ul {
@@ -2445,7 +2449,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*-------- Start Banner Area ------------*/
 
 .banner-area {
-  background: url(../img/9.jpg); 
+  background: url(../img/mainbanner.jpg); 
   background-size: cover;
 
   max-height: 600px;}
@@ -3994,6 +3998,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 .contact-page-area .form-area textarea {
   /* border-radius: 0; */
   font-size: 13px !important;
+  font-weight: 400;
+
 }
 
 .contact-page-area .form-area textarea {
@@ -4028,7 +4034,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .contact-page-area .address-wrap .single-contact-address h5 {
-  font-weight: 300;
+  font-weight: 500;
   font-size: 16px;
   margin-bottom: 5px;
 }
@@ -4446,13 +4452,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-top: 0px;
   z-index: 1;
   position: relative;
-  background: #fff;
+  background: #dadedf;
   padding: 30px;
 
   -webkit-box-shadow: 0 3px 30px -5px rgba(0, 0, 0, 0.1);
   box-shadow: 0 3px 30px -5px rgba(0, 0, 0, 0.1); }
   .block-31 .field-icon-wrap {
-    position: relative; }
+    position: relative;
+    text-align: center; }
     .block-31 .field-icon-wrap .form-control {
       height: 52px !important;
       position: relative;
