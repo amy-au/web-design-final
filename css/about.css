@@ -32,7 +32,7 @@ p
 	font-family: 'Quicksand', sans-serif;
 	font-size: 14px;
 	line-height: 1.9285;
-	font-weight: 400;
+	font-weight: 500;
 	color: #72728c;
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
@@ -209,6 +209,10 @@ p a:hover::after
 /*********************************
 7. About
 *********************************/
+.overlay {
+    
+    background: rgba(4, 9, 30, 0.2);
+}
 
 .about
 {
@@ -475,7 +479,7 @@ p a:hover::after
 	color: #777777;
 	font-family: "Quicksand", sans-serif;
 	font-size: 14px;
-	font-weight: 300;
+	font-weight: 400;
 	line-height: 1.625em;
 	position: relative;
   }
@@ -1645,7 +1649,7 @@ p a:hover::after
   }
   
   .about-banner-area {
-	background: url(../img/bannertour1_1.jpg); 
+	background: url(../img/dumpling.jpg); 
 	background-size: cover;
 	max-height: 400px;
   }
@@ -1784,6 +1788,7 @@ p a:hover::after
   .about-banner {
 	background: url(../img/top-banner.jpg) center;
 	background-size: cover;
+	max-height: 400px;
   }
   
   .about-banner .overlay-bg {
