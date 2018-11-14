@@ -26,24 +26,25 @@ h3 {
 
 .title {
 	margin-top: 90px;
-	margin-bottom: 95px;
+	margin-bottom: 70px;
 }
 
 .container .field-input {
   text-align: center;
+  margin-top: 70px;
 }
 .container .field-input input {
   text-align: left;
   border-radius: 6rem;
-  border: 1px solid #a0a0a0;
+  border: 1px solid #ced4da;
   padding: .6rem 2rem .6rem 1rem;
-  width: 12rem;
-  font-family: 'roboto';
+  width: 50%;
+  font-family: 'Quicksand';
   transition: .5s;
 }
 .container .field-input input:focus {
   outline: none;
-  border-color: #212121;
+  border-color: #fc3b3c;
   transition: .5s;
 }
 .container .field-input span:before {
@@ -53,6 +54,10 @@ h3 {
   font-family: 'fontawesome';
   top: 0;
   right: 1.5rem;
+}
+
+.accordion {
+	margin-bottom: 50px;
 }
 
 .accordion a {
@@ -163,7 +168,7 @@ h3 {
 	width: 100%;
 	background-color: rgba(0, 0, 0, 0.1);
 	text-align: center;
-	padding: 5px 0px 25px 0px;
+	padding: 5px 0px 5px 0px;
 }
 
 /* HEADER AND FOOTER */
@@ -456,8 +461,10 @@ td, th {
   margin-top: 35px;
 }
 
+/* bottom banner button */
 .mt-40 {
-  margin-top: 40px;
+  margin-top: 0px;
+  margin-bottom: 20px;
 }
 
 .mt-50 {
