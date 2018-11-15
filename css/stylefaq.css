@@ -133,7 +133,7 @@ h3 {
 
 .accordion .content p {
   font-size: 1rem;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .accordion .content a {
@@ -1853,6 +1853,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .single-footer-widget p {
   color: #777777;
+  font-weight: 500;
 }
 
 .single-footer-widget ul li {
@@ -1865,6 +1866,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+  font-weight: 500;
 }
 
 .single-footer-widget ul li a:hover {
@@ -1875,8 +1877,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding-top: 40px;
   margin-top: 20px;
   border-top: 1px solid #333;
+  font-weight: 500;
 }
 
 .footer-text a, .footer-text i {
   color: #fc5457;
+}
+
+p{
+  font-weight: 400px;
 }
