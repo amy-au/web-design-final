@@ -5272,6 +5272,7 @@ a:not([href]):not([tabindex]):hover {
     box-shadow: 0px -2px 9px 0px rgba(0,0,0,0.15);
  }
  .cta-bar--show {
+     padding-bottom: 5px;
     -webkit-transform: translateY(-15rem);
     -moz-transform: translateY(-15rem);
     -ms-transform: translateY(-15rem);
@@ -5376,7 +5377,7 @@ position: relative;
  
  @media screen and (max-width: 860px) {
 	 .primary-btn {
-		margin-bottom: 40px;
+		
 	}
  }
 

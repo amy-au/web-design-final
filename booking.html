@@ -117,36 +117,33 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<!-- left column -->
 		<div class = 'col-md-7'>
 		<div class = "questions">
-		<h1>Review and pay</h1>
+		<h1>Review and Pay</h1>
 		<form>
 			<div class = 'addguests'>
-			<h3>Confirm the number of people going</h3><br>
-			<div class = "row">
-				<div class = "col-md-6">
-				<div class='form-group'>
-				<label for='adults'>Adults:</label>
-				<input type = 'number' class = 'form-control' id = 'adults' value = '2' onchange = 'disc()'>
-			  </div>
-			  </div>
-			  <div class = "col-md-6">
-			  <div class='form-group'>
-				<label for='children'>Children:</label>
-				<input type= 'number' class = 'form-control' id = 'children' value = '2' onchange = 'disc()'>
-			  </div>
-			  </div>
-			  </div>
+			<h5 class="mb-2" style="font-weight:600">Confirm the number of people going</h5>
+				<div class = "row">
+					<div class = "col-md-6">
+						<div class='form-group'>
+						<label for='adults'>Adults:</label>
+						<input type = 'number' class = 'form-control' id = 'adults' value = '2' onchange = 'disc()'>
+					  	</div>
+				 	 </div>
+					  <div class = "col-md-6">
+						  <div class='form-group'>
+							<label for='children'>Children:</label>
+							<input type= 'number' class = 'form-control' id = 'children' value = '2' onchange = 'disc()'>
+						  </div>
+					  </div>
+				 </div>
 			  <li id = 'famdisc'><img src = 'img/success.png' width ='20'> Family discount applied</li>
-		  </div>
-		  
+		  	</div>
+		   <hr>
 			<div class = 'contact'>
-			<div class = 'row'>
-				<div class = 'col-md-8'>
-					<h3>Verify your contact details</h3>
-					<h5 style = "color: #777777">So we can contact you regarding trip details!</h5>
+			<div class = 'row mb-2'>
+				<div class = 'col-md-12'>
+					<h5 style="font-weight:600">Verify your contact details</h5>
+					<div style = "color: #777777">So we can contact you regarding trip details!</div>
 				</div><br>
-				<div class = 'col-md-4'>
-				<img src = 'img/prata.png' width = '100%'>
-				</div>
 			</div>
 				<div class='form-group'>
 				  <label for='usr'>Name*:</label>
@@ -163,9 +160,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			</div>
 			
 			<div class = "addons">
-			<h3>Choose your add-ons</h3>
+			<div>Choose your add-ons:</div>
 				<div class = 'form-group'>
-				<p><div class = 'row'>
+				<div><div class = 'row'>
 					<div class = 'col-md-6'>
 						<input type = 'checkbox'>Wheelchair access
 					</div>
@@ -181,16 +178,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						<input type = 'checkbox'>Pick up from hotel
 					</div>
 					</div>
-				</p>
+				</div>
 				</div>
 			</div>
 			
 			<div class = 'payment'>
 
-			<h3>Payment method</h3>
-			<h5 style = "color: #777777">Select payment type:</h5>
-
-			<br>
+			<h3 style="font-weight:600">Payment method</h3>
+			<div style = "color: #777777">Select payment type:</div>
 			<div class='form-group'>
 				<p>
 				<div class = 'row'>
@@ -267,7 +262,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				</div>
 				</div>
 			</div>
-			
+			<hr>
 			<div class = 'promocode'>
 			<div class='form-group'>
 				<label for='promocode'>Promo / Giftcard Code:</label>
@@ -279,20 +274,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<div class='form-group'>
 				<label for='remarks'>Remarks:</label>
 				<input type='text' class='form-control' id='remarks'>
+                <div class = 'agree'>
+					<input type = 'checkbox'>&nbsp&nbsp&nbspI agree with the <a href = 'tnc.html' target="_blank">Terms & Conditions</a><br>
+					<input type = 'checkbox'>&nbsp&nbsp&nbspI agree with the <a href = 'pp.html' target="_blank">Privacy Policy</a>
+			    </div>
 			</div>
 			</div>
 			
-			<div class = 'agree'>
-			<div class = 'row'>
-				<div class = 'col-md-7'>
-					<input type = 'checkbox'>&nbsp&nbsp&nbspI agree with the <a href = 'tnc.html' target="_blank">Terms & Conditions</a><br>
-					<input type = 'checkbox'>&nbsp&nbsp&nbspI agree with the <a href = 'pp.html' target="_blank">Privacy Policy</a>
-				</div>
-				<div class = 'col-md-5'><img src = 'img/wanton-noodles.png' width = '100%'>
-				</div>
-			</div>
-			</div>
-			<a href = '#' class="primary-btn text-uppercase">Confirm and pay</a>
+			
+
+			<a href = '#' class="primary-btn">Confirm and pay</a>
 			</form>
 			</div>
 		</div>
@@ -302,12 +293,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<div class = 'col-md-4'>
 			<div class = 'rightmenu'>
 				<div class = 'row'>
-					<div class = 'col-md-5'>
+					<div class = 'col-md-9'>
 						<h2>Supper Hawk</h2>
 						<h6 style = "color: #777777">2018 Halloween Special</h6>
 					</div>
-					<div class = 'col-md-7'>
-						<img src = 'img/halloween.jpeg' alt= 'Supper Hawk: Halloween Edition' width = '100%'>
+					<div class = 'col-md-3'>
+						<img src = 'img/milogodzilla1.jpg' alt= 'Supper Hawk: Halloween Edition' style="max-width:60px">
 					</div>
 				</div>
 				<hr>
@@ -316,7 +307,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				</div>
 				<hr>
 				<div class = 'datentime'>
-					<strong style='font-size: 18px'>Monday, 19th November 2018<br>
+					<strong style='font-size: 14px'>Monday, 19th November 2018<br>
 							 8pm - 11pm<br>
 							 Meeting point: Little India MRT Exit B 
 					</strong>
