@@ -51,7 +51,7 @@ html{
     color: #777777;
     font-family: "Quicksand", sans-serif;
     font-size: 14px;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 1.625em;
     position: relative;
     overflow-x: hidden;
@@ -3528,7 +3528,7 @@ html{
   }
   
   .widget-wrap .post-category-widget .cat-list li p {
-    font-weight: 400;
+    font-weight: 500;
     font-size: 14px;
     margin-bottom: 0px;
     -webkit-transition: all 0.3s ease 0s;
@@ -4487,5 +4487,5 @@ html{
 }
 
 p{
-  font-weight: 400;
+  font-weight: 500;
 }
