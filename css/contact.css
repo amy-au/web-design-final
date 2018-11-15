@@ -34,7 +34,7 @@ p
 	font-family: 'Quicksand', sans-serif;
 	font-size: 14px;
 	line-height: 1.9285;
-	font-weight: 400;
+	font-weight: 500;
 	color: #72728c;
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
@@ -553,8 +553,8 @@ section
 .contact
 {
 	width: 100%;
-	padding-top: 115px;
-	padding-bottom: 115px;
+	padding-top: 90px;
+	padding-bottom: 90px;
 	background: #FFFFFF;
 }
 .contact_title
@@ -762,7 +762,7 @@ section
 	color: #777777;
 	font-family: "Quicksand", sans-serif;
 	font-size: 14px;
-	font-weight: 300;
+	font-weight: 500;
 	line-height: 1.625em;
 	position: relative;
   }
