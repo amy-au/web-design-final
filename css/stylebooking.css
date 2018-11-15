@@ -6,6 +6,16 @@ body {
 	/* display: flex; */
 }
 
+.original-price{
+    text-decoration: line-through;
+    color: #ccc;
+}
+
+.new-price{
+    color: #fc3b3c;
+    font-size: 20px;
+}
+
 .content {
 	margin-top: 80px;
 	
