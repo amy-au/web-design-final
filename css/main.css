@@ -2667,7 +2667,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*-------- end Popular-destination Area ------------*/
 
 /*------ start of sponsor Area ---------- */
-.sponsoredCo .col-sm-2 img{
+.sponsoredCo .col-md-6 .col-sm-2 img{
+  width:100%;
+  opacity: 0.5;
+}
+
+.sponsoredCo .col-md-6 .col-4 img{
   width:100%;
   opacity: 0.5;
 }
