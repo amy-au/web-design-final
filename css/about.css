@@ -2080,9 +2080,14 @@ p a:hover::after
 	  margin-bottom: 70px;
 	}
   }
-  
-  .single-footer-widget p {
-	color: #777777;
+	
+	footer{
+	 font-weight: 500;
+	}
+
+	.single-footer-widget p {
+    color: #777777;
+    font-weight: 500;
   }
   
   .single-footer-widget ul li {
