@@ -2388,6 +2388,7 @@ section
 	-moz-transition: all 0.3s ease 0s;
 	-o-transition: all 0.3s ease 0s;
 	transition: all 0.3s ease 0s;
+	font-weight:500;
   }
   
   .single-footer-widget ul li a:hover {
@@ -2399,6 +2400,7 @@ section
 	padding-top: 40px;
 	margin-top: 20px;
 	border-top: 1px solid #333;
+	font-weight: 500;
   }
   
   .footer-text a, .footer-text i {
