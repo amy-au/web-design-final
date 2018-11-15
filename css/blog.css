@@ -4334,6 +4334,7 @@ html{
     padding-top: 40px;
     margin-top: 20px;
     border-top: 1px solid #333;
+    font-weight: 500;
   }
   
   .footer-text a, .footer-text i {
