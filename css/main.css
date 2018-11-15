@@ -4396,6 +4396,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 	max-width: 60%;
 }
 
+
+
 .block-32 {
   margin-top: -70px;
   z-index: 1;
@@ -4447,6 +4449,18 @@ body.mobile-nav-active #mobile-nav-toggle {
     color: #0f0 !important;
     outline: solid #f00 1px !important;
   } */
+
+  @media (max-width: 767px){
+    .block-32 {
+      margin-top: -40px;
+      z-index: 1;
+      position: relative;
+      background: #fff;
+      padding: 30px;
+    
+      -webkit-box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.1); }  
+  }
 
 
 /* =================================== */
