@@ -26,19 +26,19 @@ h3 {
 
 .title {
 	margin-top: 90px;
-	margin-bottom: 70px;
+	margin-bottom: 30px;
 }
 
 .container .field-input {
   text-align: center;
-  margin-top: 70px;
+  margin-top: 90px;
 }
 .container .field-input input {
   text-align: left;
   border-radius: 6rem;
   border: 1px solid #ced4da;
   padding: .6rem 2rem .6rem 1rem;
-  width: 50%;
+  width: 97%;
   font-family: 'Quicksand';
   transition: .5s;
 }
