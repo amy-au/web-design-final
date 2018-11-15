@@ -2,9 +2,22 @@ html,body{
   font-family: 'Quicksand', sans-serif;
 }
 
+.carousel-control-next-icon{
+  background-image: none;
+}
+
+.carousel-control-prev-icon{
+  background-image: none;
+}
+
 .original-price{
     text-decoration: line-through;
     color: #ccc;
+}
+
+.new-price{
+    color: #fc3b3c;
+    font-size: 20px;
 }
 
  .iconsize{
@@ -34,6 +47,10 @@ html,body{
 .styling1{
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.styling2{
+  padding-top:50px;
 }
 
 .hey{
@@ -401,7 +418,7 @@ body {
   color: #777777;
   font-family: "Quicksand", sans-serif;
   font-size: 14px;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.625em;
   position: relative;
 }
