@@ -4066,6 +4066,10 @@ html{
     padding-top: 100px;
   }
   
+  footer, footer .p{
+    font-weight: 500;
+  }
+  
   .footer-area .footer-nav li {
     margin-top: 18px;
   }
@@ -4307,6 +4311,7 @@ html{
   
   .single-footer-widget p {
     color: #777777;
+    font-weight: 500;
   }
   
   .single-footer-widget ul li {
