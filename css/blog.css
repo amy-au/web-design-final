@@ -3513,6 +3513,10 @@ html{
     border-radius: 4px;
   }
   
+  .widget-wrap .post-category-widget .cat-list{
+    font-weight: 500px;
+  }
+
   .widget-wrap .post-category-widget .cat-list li {
     padding-top: 15px;
     padding-bottom: 8px;
@@ -3524,7 +3528,7 @@ html{
   }
   
   .widget-wrap .post-category-widget .cat-list li p {
-    font-weight: 300;
+    font-weight: 400;
     font-size: 14px;
     margin-bottom: 0px;
     -webkit-transition: all 0.3s ease 0s;
@@ -4474,4 +4478,8 @@ html{
 
 .iconsize2 {
     width: 15px;
+}
+
+p{
+  font-weight: 400;
 }
